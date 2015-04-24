@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34499" started-at="2015-04-23T22:52:03Z" finished-at="2015-04-23T22:52:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34499" started-at="2015-04-23T22:52:03Z" finished-at="2015-04-23T22:52:38Z">
+      <class name="portal.automation.framework.tests.PreRegistrationTests">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:portal.automation.framework.tests.PreRegistrationTests@23223dd8]" name="beforeTest" is-config="true" duration-ms="10378" started-at="2015-04-23T23:52:03Z" finished-at="2015-04-23T23:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testPreRegistrationFormSubmission(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:portal.automation.framework.tests.PreRegistrationTests@23223dd8]" name="testPreRegistrationFormSubmission" duration-ms="4202" started-at="2015-04-23T23:52:14Z" description="Test PreRegistration form submission by entering all mandatory fields" data-provider="formData" finished-at="2015-04-23T23:52:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[name@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[07702211033]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPreRegistrationFormSubmission -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:portal.automation.framework.tests.PreRegistrationTests@23223dd8]" name="afterTest" is-config="true" duration-ms="271" started-at="2015-04-23T23:52:18Z" finished-at="2015-04-23T23:52:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:portal.automation.framework.tests.PreRegistrationTests@23223dd8]" name="beforeTest" is-config="true" duration-ms="9226" started-at="2015-04-23T23:52:18Z" finished-at="2015-04-23T23:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testErrorsPreRegistrationFormSubmission()[pri:0, instance:portal.automation.framework.tests.PreRegistrationTests@23223dd8]" name="testErrorsPreRegistrationFormSubmission" duration-ms="10262" started-at="2015-04-23T23:52:28Z" description="Test Errors in PreRegistration form submission without entering any values in fields" finished-at="2015-04-23T23:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorsPreRegistrationFormSubmission -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:portal.automation.framework.tests.PreRegistrationTests@23223dd8]" name="afterTest" is-config="true" duration-ms="150" started-at="2015-04-23T23:52:38Z" finished-at="2015-04-23T23:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- portal.automation.framework.tests.PreRegistrationTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
